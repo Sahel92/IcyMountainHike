@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icy Mountain Hike</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="form.js" defer></script>
+</head>
+<body>
+    <div class="side-panel-container">
+        <div class="img-container">
+            <img src="images/icy-mountain.jpg" alt="dusky sky icy mountain peaks">
+            <div class="image-credit">Image credit: Will Turner</div>
+            <div class="logo"><img src="images/Ice-Mage-.svg" alt="ice mage"></div>
+        </div>
+    </div>
+    <div class="main-panel-container">
+        <div class="information">
+            <h2>Welcome to the Ice King Icy Mountain Hike!</h2>
+            <p>Embark on an extraordinary adventure that will redefine your idea of challenge and beauty. Are you prepared for the <strong>EXTREME</strong> experience that awaits?</p>
+            <p>Whether you are a seasoned hiker or a first-timer, our icy mountain trails promise an unforgettable journey. Create a free account to access exclusive features and be part of this thrilling expedition.</p>
+        </div>
+        <div class="form-container">
+            <h3 class="form-header">Let's do this!</h3>
+            <form action = "" method="post">
+                <div class="form-group">
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" name="phone-number" id="phone-number" minlength="10" maxlength="10">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required minlength="8">
+                    <p class="password-requirements">Password must be at least 8 characters long and include a mix of uppercase, lowercase, and numeric characters.</p>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" name="confirm-password" id="confirm-password" required minlength="8">
+                    <div class="account-section">
+                        <button class="create-account">Create Account</button>
+                        <div class="account-link">
+                            Already have an account? <a href="#" >Log in</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
