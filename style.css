@@ -10,11 +10,14 @@ body {
     height: 100vh;
     overflow: hidden;
     flex : 0 0 auto;
+    display : flex;
+    flex-direction : column;
 }
 
 .img-container {
     position: relative;
     height: 100%;
+    flex : 1;
 }
 
 img {
